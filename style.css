@@ -1,3 +1,9 @@
+body{
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	font-family: "Arial", sans-serif;
+}
 .topnav
 {
 overflow: hidden;
@@ -32,7 +38,7 @@ background-color:#333;
 .form{
      margin-left: auto;
      margin-right:auto;
-     margin-top40px;
+     margin-top:40px;
      border:1px  solid;
      max-width: 25rem;
      background- color:white;
@@ -40,7 +46,7 @@ background-color:#333;
 .form-header{
      font-size: 35px;
      padding: 10px;
-     backgroud-color :#d1d5d8;
+     background-color :#d1d5d8;
      border: 1px solid;
 }
 .form-body{
@@ -50,7 +56,7 @@ background-color:#333;
 }
 .form-body input{
      margin-botton: 15px;
-     widht: 80%;
+     width: 80%;
      height: 30px;
 }
 .form-body button{
@@ -64,4 +70,53 @@ background-color:#333;
 .container {
 	position: relative;
 	text-align: center;
+}
+
+.login-container{
+	margin-top: 50px;
+	text-align: center;
+	padding: 20px;
+}
+
+.forms{
+	display: inline-block;
+}
+
+input[type=text], input[type=password]{
+  padding: 15px;
+  margin: 5px 0;
+  border: 1px solid grey;
+}
+
+button{
+	background-color: lightblue;
+	padding: 10px;
+  	width: 100%;
+}
+
+button:hover{
+	opacity: 0.8;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+.contact-container{
+	width: 100%;
+	margin-top: 50px;
+	padding: 20px;
+}
+
+.contact-form{
+	width: 50%;
+	display: block;
+}
+.buttonn,textarea, .btn-submit{
+	width: 50%;
+  padding: 15px;
+  margin: 5px 0;
+  border: 1px solid grey;
 }

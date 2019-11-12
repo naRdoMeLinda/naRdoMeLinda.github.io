@@ -1,29 +1,19 @@
+<!DOCTYPE html>
 <html>
 <head>
-<center>
-<div class="form-group">
-<div class="card card-login mx-auto mt-5">
-<div class="card-header">Login</div>
-<div class="card-body">
-<form role="form" action="logintransaction.php" method="post">
-<fieldset>
-<div class="form-group">
-<input class="form-control" placeholder="Username" name="Username" type="text" autofocus>
-</div>
-<div class="form-group">
-<input class="form-control" placeholder="Password" name="Password" type="password" value="">
-</div>
-<div class="checkbox">
-<label>
-<input name="remember" type="checkbox" value="Remember Me">Remember Me
-</label>
-</div>
-<!-- Change this to a button or input when using this as a form -->
-<button class="btn btn-lg btn-success btn-block" type="submit" name="useraccount">Login</button> 
-</fieldset>
-</form>
-</div>
-</div>
-</div>
-</center>
-
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="login-container">
+		<h2>Login</h2>
+		<form class="forms" action="index.html">
+			<input type="text" placeholder="Email Address"><br>
+			<input type="password" placeholder="Password"><br>
+			<input type="checkbox">Remember Me<br><br>
+			<button type="submit">Login</button><br><br>
+			<a href="registration.html">Create Account</a>
+		</form>
+	</div>
+</body>
+</html>
